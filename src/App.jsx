@@ -1,5 +1,8 @@
+import './app.scss'
+import Home from "./home/Home"
+
 const App = () => {
-  return <div>React Starter App 2024</div>;
+  return <Home />;
 };
 
 export default App;
