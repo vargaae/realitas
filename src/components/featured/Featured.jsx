@@ -26,17 +26,18 @@ export default function Featured({ type }) {
         </div>
       )}
       <img
-        src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        src="https://nypost.com/wp-content/uploads/sites/2/2022/04/90-day-fiance-astrology.jpg?quality=75&strip=all"
         alt="Featured image"
         width="100%"
       />
       <div className="info">
         <img
-          src="https://occ-0-1432-1433.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABUZdeG1DrMstq-YKHZ-dA-cx2uQN_YbCYx7RABDk0y7F8ZK6nzgCz4bp5qJVgMizPbVpIvXrd4xMBQAuNe0xmuW2WjoeGMDn1cFO.webp?r=df1"
+          src="https://www.emmys.com/sites/default/files/styles/marquee_main/public/marquees-fyc/fyc-fiance-1440x640.jpg?itok=AzlESoVp"
           alt=""
         />
         <span className="desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+        90 nap jegyesség... Mi az igazság? Mit tudhatunk a párokról és a hazugságaikról?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
           adipisci repellendus eum quasi illo, velit numquam, maxime tempora
           sint deleniti, aliquid qui? Facilis, adipisci! Ratione hic repudiandae
           temporibus eum earum?
