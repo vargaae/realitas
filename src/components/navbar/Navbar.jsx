@@ -1,6 +1,7 @@
 import { ArrowDropDown, Notifications, Search } from "@mui/icons-material";
 import "./navbar.scss";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -14,12 +15,18 @@ const Navbar = () => {
     <div className={isScrolled ? "navbar scrolled" : "navbar"}>
       <div className="container">
         <div className="left">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/7/74/TLC_Logo.svg"
-            alt="tlc logo"
-          />
-          <span>REALITÁS</span>
-          <span>Series</span>
+          <Link className="logo-container" to="/">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/7/74/TLC_Logo.svg"
+              alt="tlc logo"
+            />
+          </Link>
+          <Link className="nav-link" to="/">
+            <span>REALITÁS</span>
+          </Link>
+          <Link className="nav-link" to="/">
+            <span>Series</span>
+          </Link>
           <span>Movies</span>
           <span>New and popular</span>
           <span>My List</span>

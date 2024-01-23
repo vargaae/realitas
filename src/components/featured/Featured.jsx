@@ -1,5 +1,6 @@
 import { InfoOutlined, PlayArrow } from "@mui/icons-material";
 import "./featured.scss";
+import { Link } from "react-router-dom";
 
 export default function Featured({ type }) {
   return (
@@ -36,17 +37,19 @@ export default function Featured({ type }) {
           alt=""
         />
         <span className="desc">
-        90 nap jegyesség... Mi az igazság? Mit tudhatunk a párokról és a hazugságaikról?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          adipisci repellendus eum quasi illo, velit numquam, maxime tempora
-          sint deleniti, aliquid qui? Facilis, adipisci! Ratione hic repudiandae
-          temporibus eum earum?
+          90 nap jegyesség... Mi az igazság? Mit tudhatunk a párokról és a
+          hazugságaikról? Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Vitae adipisci repellendus eum quasi illo, velit numquam, maxime
+          tempora sint deleniti, aliquid qui? Facilis, adipisci! Ratione hic
+          repudiandae temporibus eum earum?
         </span>
         <div className="buttons">
-          <button className="play">
-            <PlayArrow />
-            <span>Play</span>
-          </button>
+          <Link className="play" to="/watch">
+            <button className="play">
+              <PlayArrow />
+              <span>Play</span>
+            </button>
+          </Link>
           <button className="more">
             <InfoOutlined />
             <span>Info</span>

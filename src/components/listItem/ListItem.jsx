@@ -6,6 +6,7 @@ import {
   ThumbUpAltOutlined,
   ThumbDownOutlined,
 } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 export default function ListItem({ index }) {
   const [isHovered, setIsHovered] = useState(false);
@@ -27,7 +28,10 @@ export default function ListItem({ index }) {
           <video src={trailer} autoPlay={true} loop />
           <div className="itemInfo">
             <div className="icons">
-              <PlayArrow className="icon" />
+              <Link className="play" to="/watch">
+                <PlayArrow className="icon" />
+              </Link>
+
               <Add className="icon" />
               <ThumbUpAltOutlined className="icon" />
               <ThumbDownOutlined className="icon" />
